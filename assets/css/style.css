@@ -2471,3 +2471,181 @@ body.image-modal-open {
     height: 220px;
   }
 }
+
+/* ==================================================
+   FINAL MOBILE OVERRIDE
+   Keep this block at the very bottom of style.css
+================================================== */
+
+@media (max-width: 579px) {
+
+  html,
+  body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  body {
+    padding-bottom: 88px;
+  }
+
+  main {
+    width: auto;
+    min-width: 0;
+    margin: 12px !important;
+    margin-bottom: 110px !important;
+  }
+
+  .main-content,
+  .sidebar,
+  article {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+  }
+
+  article {
+    padding: 20px !important;
+  }
+
+  /* Sidebar: prevent contact details/social icons from being cut off */
+  .sidebar {
+    max-height: 112px;
+    overflow: hidden;
+  }
+
+  .sidebar.active {
+    max-height: 760px !important;
+    overflow: visible;
+  }
+
+  .sidebar-info {
+    min-width: 0;
+    padding-right: 30px;
+  }
+
+  .avatar-box {
+    flex: 0 0 auto;
+  }
+
+  .avatar-box img {
+    width: 90px !important;
+    height: 112px !important;
+    object-fit: cover;
+    object-position: center top;
+  }
+
+  .info-content {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .info-content .name {
+    overflow-wrap: anywhere;
+  }
+
+  .info-content .title {
+    width: fit-content;
+    max-width: 100%;
+    white-space: normal;
+  }
+
+  .contacts-list {
+    grid-template-columns: 1fr !important;
+  }
+
+  .contact-info,
+  .contact-link {
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .social-list {
+    padding-bottom: 12px;
+  }
+
+  /* Bottom navigation */
+  .navbar {
+    left: 12px !important;
+    right: 12px !important;
+    bottom: 8px !important;
+    width: auto !important;
+    border-radius: 16px !important;
+  }
+
+  .navbar-list {
+    display: grid !important;
+    grid-template-columns: repeat(5, 1fr);
+    overflow: visible !important;
+    padding: 0 4px !important;
+  }
+
+  .navbar-link {
+    width: 100%;
+    min-width: 0 !important;
+    padding: 17px 2px !important;
+    text-align: center;
+    font-size: 10px !important;
+  }
+
+  /* Blog/design cards */
+  .blog-posts-list {
+    grid-template-columns: 1fr !important;
+  }
+
+  .blog-image-grid,
+  .blog-image-grid-two {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    height: auto !important;
+  }
+
+  .blog-image-btn {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 220px;
+    aspect-ratio: 16 / 10;
+  }
+
+  .blog-image-btn img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain !important;
+    background: #fff;
+  }
+
+  /* Portfolio */
+  .project-list {
+    grid-template-columns: 1fr !important;
+  }
+
+  .project-video-btn {
+    width: 100%;
+  }
+
+  .project-img {
+    width: 100%;
+    height: auto !important;
+    aspect-ratio: 16 / 10;
+  }
+
+  /* Resume */
+  .resume-header {
+    flex-direction: column !important;
+    align-items: stretch !important;
+  }
+
+  .resume-pdf-btn {
+    width: 100%;
+  }
+
+  /* Prevent fixed navigation from covering final content */
+  article,
+  .blog-posts,
+  .projects,
+  .contact-form {
+    padding-bottom: 20px;
+  }
+}
+
