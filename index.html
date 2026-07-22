@@ -1,0 +1,1145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Ng Heng Bin" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Ng Heng Bin">Ng Heng Bin</h1>
+
+          <p class="title">IT Support & Software Development</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:hengbin0718@gmail.com" class="contact-link">hengbin0718@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+601119791272" class="contact-link">+60 11-1979 1272</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2006-07-18">July 18, 2006</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Johor, Malaysia</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/garpro-hub" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/heng-bin-gary-ng-536027324?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://x.com/nicholas28321" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a final-year Diploma in Information Technology student with an interest in IT support, computer hardware, software development, and mobile application development.
+          </p>
+
+          <p>
+            I enjoy learning new technologies, troubleshooting technical problems, and developing practical systems that improve daily processes. Through my academic projects, I have gained experience in Flutter, Supabase, Firebase, database management, IoT development, and user interface design.
+          </p>
+
+          <p>
+            I am currently seeking opportunities to strengthen my technical skills, gain industry experience, and contribute to a professional IT environment.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">IT Support</h4>
+
+                <p class="service-item-text">
+                  Troubleshooting computer hardware, software, system and basic network-related issues.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Software Development</h4>
+
+                <p class="service-item-text">
+                  Developing practical software systems using programming, database and development tools.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile App Development</h4>
+
+                <p class="service-item-text">
+                  Creating responsive mobile applications using Flutter, Supabase and Firebase.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Hardware & IoT</h4>
+
+                <p class="service-item-text">
+                  Building basic IoT solutions using ESP32, sensors and cloud-based monitoring platforms.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Gary consistently demonstrated strong problem-solving skills and a positive attitude throughout his project development. He is responsible, eager to learn, and always willing to improve his technical knowledge. His ability to develop practical software solutions makes him a promising IT professional.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Eric Ting" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Eric Ting</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Working with Gary was a great experience. He communicates well, collaborates effectively with the team, and always completes his tasks on time. His technical skills in Flutter, database development, and system design contributed significantly to our project.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header class="resume-header">
+          <h2 class="h2 article-title">Resume</h2>
+
+          <a
+            href="./assets/pdfs/Gary_Ng_Resume.pdf"
+            class="resume-pdf-btn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <ion-icon name="document-text-outline"></ion-icon>
+            View Resume PDF
+          </a>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Diploma In Information Technology</h4>
+
+              <span>2024 — Present</span>
+              <span>CGPA - 3.4</span>
+
+              <p class="timeline-text">
+                Studying software development, database systems, mobile application development, networking, web development and information technology support.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Secondary School</h4>
+
+              <span>SMK Taman Universiti 2</span>
+              <span>2019 - 2024</span>
+
+              <p class="timeline-text">
+                Successfully completed Sijil Pelajaran Malaysia (SPM). Actively participated in co-curricular activities, developing strong teamwork, leadership, and problem-solving skills.
+              </p>
+
+            </li>
+
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Academic Projects</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Clinic Appointment Management System</h4>
+
+              <span>2026</span>
+
+              <p class="timeline-text">
+                Developed a Flutter mobile application for patients and administrators to manage clinic appointments, health packages, medical records, notifications and patient information.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">IoT Smart Car Parking System</h4>
+
+              <span>2026</span>
+
+              <p class="timeline-text">
+                Built an ESP32-based smart parking system using IR sensors, an automated gate, an LCD display and ThingsBoard cloud monitoring.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Campus Mobile Application</h4>
+
+              <span>2025</span>
+
+              <p class="timeline-text">
+                Developed a campus application that provides students with convenient access to campus-related information and services.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Flutter Development</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">IT Support & Troubleshooting </h5>
+                <data value="75">75%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Computer Hardware</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">ESP32 & IoT</h5>
+                <data value="65">65%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 65%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Mobile Application</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>IoT System</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>All Projects</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Mobile Application</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>IoT System</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>All Projects</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item active" data-filter-item data-category="mobile application">
+              <button
+                type="button"
+                class="project-video-btn"
+                data-video-open
+                data-video-src="./assets/videos/clinic-demo.mp4"
+                data-video-name="Clinic Appointment Management System"
+              >
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="play-outline"></ion-icon>
+                  </div>
+
+                  <img
+                    src="./assets/images/project-1.jpg"
+                    alt="Clinic Appointment Management System"
+                    loading="lazy"
+                  >
+                </figure>
+
+                <h3 class="project-title">Clinic Appointment Management System</h3>
+                <p class="project-category">Mobile Application</p>
+                <span class="project-watch-text">
+                  <ion-icon name="videocam-outline"></ion-icon>
+                  Watch demo
+                </span>
+              </button>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="iot system">
+              <button
+                type="button"
+                class="project-video-btn"
+                data-video-open
+                data-video-src="./assets/videos/parking-demo.mp4"
+                data-video-name="IoT Smart Car Parking System"
+              >
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="play-outline"></ion-icon>
+                  </div>
+
+                  <img
+                    src="./assets/images/project-2.png"
+                    alt="IoT Smart Car Parking System"
+                    loading="lazy"
+                  >
+                </figure>
+
+                <h3 class="project-title">IoT Smart Car Parking System</h3>
+                <p class="project-category">IoT System</p>
+                <span class="project-watch-text">
+                  <ion-icon name="videocam-outline"></ion-icon>
+                  Watch demo
+                </span>
+              </button>
+            </li>
+
+          </ul>
+
+          <!-- Project video modal -->
+          <div class="video-modal-container" data-video-modal>
+            <div class="video-modal-overlay" data-video-overlay></div>
+
+            <section
+              class="video-modal"
+              role="dialog"
+              aria-modal="true"
+              aria-labelledby="video-modal-title"
+            >
+              <div class="video-modal-header">
+                <h3 class="h3" id="video-modal-title" data-video-title>
+                  Project Demo
+                </h3>
+
+                <button
+                  type="button"
+                  class="video-modal-close"
+                  aria-label="Close video"
+                  data-video-close
+                >
+                  <ion-icon name="close-outline"></ion-icon>
+                </button>
+              </div>
+
+              <video
+                class="project-video-player"
+                controls
+                playsinline
+                preload="metadata"
+                data-video-player
+              >
+                Your browser does not support MP4 video playback.
+              </video>
+            </section>
+          </div>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Design Work</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <div class="blog-card">
+
+                <div class="blog-image-grid blog-image-grid-two">
+                  <button
+                    type="button"
+                    class="blog-image-btn"
+                    data-image-open
+                    data-image-src="./assets/images/business-card-front.jpg"
+                    data-image-alt="Business card front design"
+                  >
+                    <img
+                      src="./assets/images/business-card-front.jpg"
+                      alt="Business card front design"
+                      loading="lazy"
+                    >
+                    <span class="blog-image-zoom">
+                      <ion-icon name="expand-outline"></ion-icon>
+                    </span>
+                  </button>
+
+                  <button
+                    type="button"
+                    class="blog-image-btn"
+                    data-image-open
+                    data-image-src="./assets/images/business-card-back.jpg"
+                    data-image-alt="Business card back design"
+                  >
+                    <img
+                      src="./assets/images/business-card-back.jpg"
+                      alt="Business card back design"
+                      loading="lazy"
+                    >
+                    <span class="blog-image-zoom">
+                      <ion-icon name="expand-outline"></ion-icon>
+                    </span>
+                  </button>
+                </div>
+
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Graphic Design</p>
+                    <span class="dot"></span>
+                    <p class="blog-category">Two-sided design</p>
+                  </div>
+
+                  <a
+                    href="./assets/pdfs/business-card.pdf"
+                    class="blog-pdf-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <h3 class="h3 blog-item-title">Business Card Design</h3>
+                    <ion-icon name="document-outline"></ion-icon>
+                  </a>
+
+                  <p class="blog-text">
+                    A professional two-sided business card created with a consistent visual identity and clear information layout.
+                  </p>
+
+                  <a
+                    href="./assets/pdfs/business-card.pdf"
+                    class="blog-open-pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Open PDF
+                    <ion-icon name="open-outline"></ion-icon>
+                  </a>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="blog-post-item">
+              <div class="blog-card">
+
+                <div class="blog-image-grid">
+                  <button
+                    type="button"
+                    class="blog-image-btn"
+                    data-image-open
+                    data-image-src="./assets/images/mind-map.jpg"
+                    data-image-alt="Mind map design"
+                  >
+                    <img
+                      src="./assets/images/mind-map.jpg"
+                      alt="Mind map design"
+                      loading="lazy"
+                    >
+                    <span class="blog-image-zoom">
+                      <ion-icon name="expand-outline"></ion-icon>
+                    </span>
+                  </button>
+                </div>
+
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Information Design</p>
+                  </div>
+
+                  <a
+                    href="./assets/pdfs/mind-map.pdf"
+                    class="blog-pdf-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <h3 class="h3 blog-item-title">Mind Map</h3>
+                    <ion-icon name="document-outline"></ion-icon>
+                  </a>
+
+                  <p class="blog-text">
+                    A visual mind map that organizes ideas, key concepts and relationships in a structured and easy-to-understand format.
+                  </p>
+
+                  <a
+                    href="./assets/pdfs/mind-map.pdf"
+                    class="blog-open-pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Open PDF
+                    <ion-icon name="open-outline"></ion-icon>
+                  </a>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="blog-post-item">
+              <div class="blog-card">
+
+                <div class="blog-image-grid">
+                  <button
+                    type="button"
+                    class="blog-image-btn"
+                    data-image-open
+                    data-image-src="./assets/images/mood-board.jpg"
+                    data-image-alt="Mood board design"
+                  >
+                    <img
+                      src="./assets/images/mood-board.jpg"
+                      alt="Mood board design"
+                      loading="lazy"
+                    >
+                    <span class="blog-image-zoom">
+                      <ion-icon name="expand-outline"></ion-icon>
+                    </span>
+                  </button>
+                </div>
+
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Visual Direction</p>
+                  </div>
+
+                  <a
+                    href="./assets/pdfs/mood-board.pdf"
+                    class="blog-pdf-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <h3 class="h3 blog-item-title">Mood Board</h3>
+                    <ion-icon name="document-outline"></ion-icon>
+                  </a>
+
+                  <p class="blog-text">
+                    A mood board presenting the selected colors, typography, imagery and visual direction for the design concept.
+                  </p>
+
+                  <a
+                    href="./assets/pdfs/mood-board.pdf"
+                    class="blog-open-pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Open PDF
+                    <ion-icon name="open-outline"></ion-icon>
+                  </a>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+        <!-- Image preview modal -->
+        <div class="image-modal-container" data-image-modal>
+          <div class="image-modal-overlay" data-image-overlay></div>
+
+          <section class="image-modal" role="dialog" aria-modal="true" aria-label="Image preview">
+            <button
+              type="button"
+              class="image-modal-close"
+              aria-label="Close image preview"
+              data-image-close
+            >
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <img src="" alt="" data-image-preview>
+          </section>
+        </div>
+
+      </article>
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d997.1509914151413!2d103.62818110834671!3d1.4136596493903157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da12c2bf10f3ff%3A0xdd4dbd560681fef0!2z6I6x5L2b5aOr5aSn5a2m5L6d5pav5bmy6L6-IChSYWZmbGVzIFVuaXZlcnNpdHkgSXNrYW5kYXIp!5e0!3m2!1szh-CN!2smy!4v1784708656219!5m2!1szh-CN!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
