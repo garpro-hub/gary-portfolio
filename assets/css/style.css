@@ -2510,15 +2510,7 @@ body.image-modal-open {
   }
 
   /* Sidebar: prevent contact details/social icons from being cut off */
-  .sidebar {
-    max-height: 112px;
-    overflow: hidden;
-  }
 
-  .sidebar.active {
-    max-height: 760px !important;
-    overflow: visible;
-  }
 
   .sidebar-info {
     min-width: 0;
@@ -2649,3 +2641,21 @@ body.image-modal-open {
   }
 }
 
+@media (max-width: 579px) {
+
+  /* 手机端直接展开个人信息 */
+  .sidebar {
+    max-height: none !important;
+    overflow: visible !important;
+  }
+
+  .sidebar-info_more {
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+
+  /* 隐藏右上角箭头按钮 */
+  .info_more-btn {
+    display: none !important;
+  }
+}
